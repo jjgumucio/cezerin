@@ -6,4 +6,3 @@
 - Install git (vía distro package manager)
 - Clone the repo
 - ```npm install```
-- ```npm run build```
