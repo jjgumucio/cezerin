@@ -5,3 +5,5 @@
 - Install MongoDB (vía distro package manager)
 - Install git (vía distro package manager)
 - Clone the repo
+- ```npm install```
+- ```npm run build```
