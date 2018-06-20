@@ -1,5 +1,4 @@
 ## Deployment on Ubuntu 16 VM
-- Install NGINX: ```apt-get install nginx```
 - Install NVM: ```curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash``` [NVM Repo](https://github.com/creationix/nvm)
 - Install Node: ```nvm install <latest LTS version>``` (To see available versions use ```nvm ls-remote```)
 - Install MongoDB: (Default Mongo version from package managers are old: [Source](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/))
