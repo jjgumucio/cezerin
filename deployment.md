@@ -1,5 +1,5 @@
 ## Deployment on Ubuntu 16 VM
-
+- Install NGINX: ```apt-get install nginx```
 - Install NVM: ```curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash``` [NVM Repo](https://github.com/creationix/nvm)
 - Install Node: ```nvm install <latest LTS version>``` (To see available versions use ```nvm ls-remote```)
 - Install MongoDB: (Default Mongo version from package managers are old: [Source](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/))
@@ -13,3 +13,6 @@
 - Change directory to the project: ```cd ucommerce```
 - Install dependencies: ```npm install```
 - Follow instruction on Cezerins project: [Cezerin Repo](https://github.com/cezerin/cezerin/blob/master/docs/getting-started.md)
+- Set up NGINX: 
+  - [Instructions to install](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04)
+  - [Instructions to config](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04)
