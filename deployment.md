@@ -13,6 +13,7 @@
 - Change directory to the project: ```cd ucommerce```
 - Install dependencies: ```npm install```
 - Follow instruction on Cezerins project: [Cezerin Repo](https://github.com/cezerin/cezerin/blob/master/docs/getting-started.md)
-- Set up NGINX: 
+- Set up NGINX:
+  - Install NGINX: ```apt-get install nginx```
   - [Instructions to install](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04)
   - [Instructions to config](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04)
